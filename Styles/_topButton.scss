@@ -1,0 +1,28 @@
+.toTop{
+    position: fixed;
+    bottom: -2rem;
+    right: 2rem;
+    width: 2rem;
+    height: 2rem;
+    background: white;
+    border-radius: 1rem;
+    display: flex;
+    opacity: 0;
+    transition: 0.4s ease-out;
+    
+    
+    a {
+        margin: auto;
+        text-align: center;
+        color: black;
+    }
+
+    .material-icons{
+        font-size: 2rem;
+    }
+
+    &.active {
+        opacity: 1;
+        bottom: 2rem;
+    }
+}

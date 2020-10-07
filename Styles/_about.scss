@@ -1,0 +1,59 @@
+@import "./variables";
+
+#about {
+    padding: 2rem 5rem;
+    min-height: 100vh;
+    background: $stairGreen;
+}
+
+#about h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: white;
+    margin: 2.5rem 0 0.5rem 0;
+}
+
+#about div div{
+    width: 50%;
+    padding: 1rem 1rem;
+    color : $shineGreen;
+    margin-left: 50%;
+    position: relative;
+    
+    h4 {
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.1rem;
+    }
+
+    p{
+        color : white;
+    }
+}
+
+#about div div:nth-child(even)::before{
+    content: "";
+    position: absolute;
+    top : 0;
+    left : 0;
+    width: 1px;
+    height: 100%;
+    background: $shineGreen;
+}
+
+#about div div:nth-child(odd){
+    margin: 0;
+    text-align: right;
+}
+
+#about div div:nth-child(odd)::after {
+    content: "";
+    position: absolute;
+    top : 0;
+    left : 100%;
+    width: 1px;
+    height: 100%;
+    background: $shineGreen;
+}
+    

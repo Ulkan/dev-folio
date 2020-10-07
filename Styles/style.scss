@@ -1,0 +1,29 @@
+@import "./variables";
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+main{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h2 {
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    margin: 0 0 2rem 5rem;
+}
+
+
+@import "./topButton";
+@import "./header";
+@import "./projects";
+@import "./about";
