@@ -184,14 +184,6 @@ nav {
   background: #2999A6;
 }
 
-#project-cards {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 2rem;
-}
-
 .imgBox {
   overflow: hidden;
 }
