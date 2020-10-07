@@ -8,7 +8,7 @@ tl.fromTo('.intro', {opacity: 1, zIndex: 1}, {opacity: 0, zIndex:-1, duration: 0
 tl.fromTo('.text', {opacity: 1, zIndex: 1}, {opacity: 0, zIndex:-1, duration: 0.1});
 tl.fromTo('.slider', {opacity: 1, zIndex: 1}, {opacity: 0, zIndex:-1, duration: 0.1});
 tl.fromTo('nav', {opacity: 0}, {opacity: 1, duration: 1});
-tl.fromTo('.big-text', {opacity: 0}, {opacity: 1, duration: 1}, "-=1");
+//tl.fromTo('.big-text', {opacity: 0}, {opacity: 1, duration: 1}, "-=1");
 
 
 
