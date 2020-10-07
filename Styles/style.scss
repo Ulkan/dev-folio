@@ -23,9 +23,7 @@ h2 {
 }
 
 
-@media only screen and (min-width: 600px) {
-    @import "./topButton";
-    @import "./header";
-    @import "./projects";
-    @import "./about";
-}
+@import "./topButton";
+@import "./header";
+@import "./projects";
+@import "./about";
