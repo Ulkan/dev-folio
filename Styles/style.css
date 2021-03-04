@@ -105,8 +105,8 @@ nav {
   width: 0px;
   height: 2px;
   background: #0B0A0D;
-  -webkit-transition: ease-out .5s;
-  transition: ease-out .5s;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
 }
 
 .nav-links li:hover::after {
@@ -114,7 +114,7 @@ nav {
 }
 
 #logo {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: lighter;
   font-size: 2.5rem;
   color: #0B0A0D;
@@ -126,7 +126,7 @@ nav {
   left: 50%;
   -webkit-transform: translate(-50%, -30%);
           transform: translate(-50%, -30%);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 5rem;
   color: #0B0A0D;
 }
@@ -150,7 +150,7 @@ nav {
 }
 
 .intro-text {
-  color: #ffbe00;
+  color: #0cd30c;
   font-family: "Heebo", sans-serif;
   text-transform: uppercase;
   font-size: 3rem;
